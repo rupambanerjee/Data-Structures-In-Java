@@ -18,7 +18,7 @@ Concurrent HashMap is thread safe i.e code can be accessed by a single thread at
 
 - ConcurrentHashMap is a good choice for caches, which can be initialized during application start up and later accessed my many request processing threads.
  
-- As javadoc states, CHM is also a good replacement of Hashtable and should be used whenever possible, keeping in mind, that CHM provides slightly weeker form of synchronization than Hashtable.
+- As javadoc states, CHM is also a good replacement of Hashtable and should be used whenever possible, keeping in mind, that CHM provides slightly weaker form of synchronization than Hashtable.
 
 - Below table shows comparison of HashMap, Hashtable and ConcurrentHashMap,
 
